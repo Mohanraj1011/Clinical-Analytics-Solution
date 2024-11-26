@@ -77,5 +77,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ![Screenshot (222)](https://github.com/user-attachments/assets/49d32738-366f-4728-b43e-579fe48b3984)
 
+### Welcome Page
+
+![Screenshot (227)](https://github.com/user-attachments/assets/0e791452-f127-404d-941d-d217c5ec8673)
+
+### Patient Data
+
+![Screenshot (228)](https://github.com/user-attachments/assets/a441eebc-4c89-4fde-abe9-8f81907df978)
+
+### Charts Visualization
+
+![Screenshot (229)](https://github.com/user-attachments/assets/31c6858c-8c42-4f8e-8202-1575fa075796)
+
+### Analytics
+
+![Screenshot (230)](https://github.com/user-attachments/assets/fc457c18-911f-4b03-9690-9bb1cfef6476)
+
+### Patient Form
+
+![Screenshot (231)](https://github.com/user-attachments/assets/79a4da22-cdbf-4de6-aff1-f35e4b06c0de)
+
+
+
+
+
+
+
 
 
