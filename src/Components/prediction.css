@@ -1,0 +1,29 @@
+h3 {
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 18px; 
+    margin-top: 15px;
+  }
+
+  div {
+    text-align: center;
+    font-size: 16px; 
+    color: #010113;
+    margin: 8px 0; 
+  }
+
+  .card-body-custom {
+    background-color: #181616; 
+    color: #333; 
+  }
+  .card-title-success {
+    color: #215ee3; 
+  }
+  

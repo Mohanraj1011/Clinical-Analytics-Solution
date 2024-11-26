@@ -1,0 +1,80 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+
+  
+  background-image: url('E:/Clinical Analytics Solution/Clinical Analytics Solution/clinical/src/Components/Assests/Dashboard bacground.jpeg');
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling of the image */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+
+
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9); 
+  margin-bottom: 40px; 
+}
+
+
+.chart-left, .chart-right {
+  flex: 1;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.95); 
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out; 
+}
+
+
+.chart-left:hover, .chart-right:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+.table-selection {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.table-selection label {
+  font-weight: bold;
+  color: #555;
+}
+
+.table-selection select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-left: 10px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.table-selection select:focus {
+  border-color: #007bff; 
+}
+
+
+@media (max-width: 768px) {
+  .chart-container {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .chart-left, .chart-right {
+    width: 100%;
+  }
+}
+
